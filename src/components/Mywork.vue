@@ -1,6 +1,39 @@
 <template>
     <div class="work-page">
-            dbsipujdfi
+       <div class="card-deck" >
+  <div class="card">
+      <a href="https://udemy-modern-javascript-d9d2e.firebaseapp.com/">
+    <img src="../assets/chatroom.png" class="card-img-top" alt="...">
+    </a>
+    <div class="card-body">
+      <h5 class="card-title">Chatroom</h5>
+     </div>
+  </div>
+  <div class="card">
+      <a href="https://gaming-app-195d8.firebaseapp.com/">
+    <img src="../assets/Gameapp.png" class="card-img-top" alt="...">
+    </a>
+    <div class="card-body">
+      <h5 class="card-title">Game app</h5>
+     </div>
+  </div>
+  <div class="card">
+           <a href="https://to-do-list-31fcb.firebaseapp.com/">
+    <img src="../assets/Todoapp.png" class="card-img-top" alt="...">
+    </a>
+    <div class="card-body">
+      <h5 class="card-title">Todoapp</h5>
+   </div>
+  </div>
+   <div class="card">
+        <a href=" https://weather-app-4947d.firebaseapp.com/">
+<img src="../assets/Weatherapp.png"  class="card-img-top" alt="...">
+</a>
+    <div class="card-body">
+      <h5 class="card-title">Weatherapp</h5>
+   </div>
+  </div>
+</div>
     </div>
 </template>
 <style>
@@ -12,5 +45,11 @@
    background-position: center;
     background-size: 100%;
     filter: blur(110);
+}
+.card-deck{
+max-width: 100%;
+max-height: 100%;
+padding-top:80px;
+
 }
 </style>
