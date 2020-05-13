@@ -1,27 +1,6 @@
 <template>
 <div>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <h1 class="navbar-brand" >FRANK</h1>
-    </div>
-    <ul class="nav navbar-nav ">
-     <li class=""><router-link
-     tag="a" 
-     :to="{name:'mywork'}">My work</router-link></li>
-      <li><router-link 
-       tag="a" 
-     :to="{name:'Skills'}">skills</router-link></li>
-      <li><router-link
-       tag="a" 
-     :to="{name:'about'}">About me</router-link></li>
-      <li><router-link 
-       tag="a" 
-     :to="{name:'contact'}">Contact me</router-link></li>
-    </ul>
-  </div>
-</nav>
-<div>
+
   <div class="container-home">
       <div class="text">
         <h1>
@@ -62,7 +41,7 @@
     </div> 
 </div>
 
-</div>
+
 
 
 
@@ -79,7 +58,7 @@
   linear-gradient(to right, rgba(111, 126, 213, 0.8), rgba(105, 20, 202, 0.8)),
   url(../assets/portfolio.jpg) ;
   background-repeat: no-repeat;
-  height: 87.6vh;
+  height: 91.6vh;
   background-position: center;
   background-size: 100%;
   filter: blur(110);
@@ -88,55 +67,7 @@
 .text{
   margin-top: 0;
 }
-.container-fluid{
-  display: flex;
-  max-width: 100%;
-  background-color: rgb(4, 68, 110);
-  margin-bottom:0;
-  
-}
-.navbar-brand{
-  position: relative;
-  top:-3px;
-}
-.navbar{
-  margin-bottom:0;
-  padding:0;
-}
-.navbar-nav {
-  margin-left: 1000px;
-  margin-bottom: 0;
-  display:inline-block;
 
-}
-.navbar-nav a{
-  margin :10px;
-  border:15px round green;
-}
-a:link {
-  color: red;
-}
-
-/* visited link */
-a:visited {
-  color: green;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: blue;
-}
-.navbar-brand{
-  font-size: 50px;
-}
-li{
-  float:right;
-}
 .text {
   position: absolute;
   top:300px;

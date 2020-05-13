@@ -41,7 +41,7 @@
      background-image: 
   linear-gradient(to right, rgba(111, 126, 213, 0.8), rgba(105, 20, 202, 0.8)),
   url(../assets/mywork.jpg) ;
-   height: 100vh;
+   height: 91.6vh;
    background-position: center;
     background-size: 100%;
     filter: blur(110);
@@ -51,5 +51,67 @@ max-width: 100%;
 max-height: 100%;
 padding-top:80px;
 
+}
+.card {
+    transition:all 0.3s ease;
+}
+@-webkit-keyframes card {
+    15% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    65% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    80% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+@keyframes card {
+    15% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    65% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    80% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+.card:hover
+{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }
 </style>

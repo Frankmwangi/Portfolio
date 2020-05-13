@@ -5,11 +5,14 @@ import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
+import animate from 'animate.css'
 
 
+Vue.use(animate)
 
 
 Vue.config.productionTip = false
+
 
 new Vue({
   router,

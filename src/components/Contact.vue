@@ -1,4 +1,5 @@
 <template>
+  
     <div class="contact-page">
    <div class="row text-center ">
   <div class="col-md-4">
@@ -25,6 +26,7 @@
 </div>
 <br>
 <br>
+<transition name="slide">
     <div class="col-md-4 offset-4 call">
         <div class="card">
             <div class="card-body">
@@ -32,12 +34,13 @@
             <p>0790971894<i class="fas fa-phone-square"></i></p>
     </div>
   </div>
+  </div>
+  </transition>
 </div>
-
  
-</div>
+
       
-   
+ 
 </template>
 <style scoped>
 .contact-page{
@@ -45,7 +48,7 @@
      background-image: 
   linear-gradient(to right, rgba(111, 126, 213, 0.8), rgba(105, 20, 202, 0.8)),
   url(../assets/contact.jpg) ;
-   height: 100vh;
+   height: 91.6vh;
    background-position: center;
     background-size: 100%;
     filter: blur(110);

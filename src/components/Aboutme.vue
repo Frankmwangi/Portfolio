@@ -1,4 +1,6 @@
+
 <template>
+<transition name="fadeIn">
     <div class="about-page">
         <div class="my-image">
 
@@ -13,13 +15,14 @@
                  
             </div>
     </div>
+    </transition>
 </template>
 <style>
 .about-page{
      background-image: 
   linear-gradient(to right, rgba(111, 126, 213, 0.8), rgba(105, 20, 202, 0.8)),
   url(../assets/about.jpg) ;
-   height: 100vh;
+   height: 91.6vh;
    background-position: center;
     background-size: 100%;
     filter: blur(110);
